@@ -1,0 +1,230 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/damares/Documents/PSEFPGA/E4
+vCONF_CONTROL
+!s110 1652376434
+!i10b 1
+!s100 6:1oLXi1I@:InzKa9en]`3
+I6R=b<SjYiH8T6N96WEXl:2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5
+w1620327715
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/CONF_CONTROL.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/CONF_CONTROL.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1652376434.000000
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/CONF_CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/CONF_CONTROL.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@c@o@n@f_@c@o@n@t@r@o@l
+vCONTROL
+Z5 !s110 1652376435
+!i10b 1
+!s100 zGn3C@oIK`]Z1SSTVZFB@2
+Igm5PI0aI`I3XU2SZ`V[4i3
+R0
+R1
+w1491069737
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/CONTROL.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/CONTROL.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1652376435.000000
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/CONTROL.v|
+!i113 1
+R3
+R4
+n@c@o@n@t@r@o@l
+vMAIN_CONTROL
+R5
+!i10b 1
+!s100 aAYfgKBjHHh6o0_Vz=3GJ0
+IfE7XE]h7LWDP?MoJEKig<3
+R0
+R1
+w1651854401
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/MAIN_CONTROL.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/MAIN_CONTROL.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/MAIN_CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/MAIN_CONTROL.v|
+!i113 1
+R3
+R4
+n@m@a@i@n_@c@o@n@t@r@o@l
+vMAIN_CONTROL_TB
+R5
+!i10b 1
+!s100 1_bdV@@n]fHE_nB_iHo3F0
+INDV`MNUn=2ABK8L1FaJ7h0
+R0
+R1
+w1651854469
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/MAIN_CONTROL_TB.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/MAIN_CONTROL_TB.v
+L0 3
+R2
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/MAIN_CONTROL_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/MAIN_CONTROL_TB.v|
+!i113 1
+R3
+R4
+n@m@a@i@n_@c@o@n@t@r@o@l_@t@b
+vRD_CONTROL
+R5
+!i10b 1
+!s100 2X?GZ_Ul_2?h;Dl5U`^XS3
+IMahNeRSZY26Fbm>W9HgLI0
+R0
+R1
+w1652372464
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/RD_CONTROL.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/RD_CONTROL.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/RD_CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/RD_CONTROL.v|
+!i113 1
+R3
+R4
+n@r@d_@c@o@n@t@r@o@l
+vRD_CONTROL_TB
+R5
+!i10b 1
+!s100 b?QmgdiZhS0CNo:F<Qb>f1
+I<4X_l<O;cH0c;FXd;PHz`2
+R0
+R1
+w1652371323
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/RD_CONTROL_TB.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/RD_CONTROL_TB.v
+L0 3
+R2
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/RD_CONTROL_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/RD_CONTROL_TB.v|
+!i113 1
+R3
+R4
+n@r@d_@c@o@n@t@r@o@l_@t@b
+vREGS_CONF
+!s110 1652376436
+!i10b 1
+!s100 l7Yg2Mo6kUR5d[_d8@TFR2
+IHz0SEEWEN`HKE@;O@PN2c3
+R0
+R1
+w1652376040
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/REGS_CONF.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/REGS_CONF.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1652376436.000000
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/REGS_CONF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/REGS_CONF.v|
+!i113 1
+R3
+R4
+n@r@e@g@s_@c@o@n@f
+vREGS_CONF_TB
+R5
+!i10b 1
+!s100 F;?7XiI0_0>=9EMl8HGDY2
+IKQi1[YCb?>OnQjNJjzzIT3
+R0
+R1
+w1652376415
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/REGS_CONF_TB.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/REGS_CONF_TB.v
+L0 3
+R2
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/REGS_CONF_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/REGS_CONF_TB.v|
+!i113 1
+R3
+R4
+n@r@e@g@s_@c@o@n@f_@t@b
+vWR_CONTROL
+R5
+!i10b 1
+!s100 zaRHnzE?C[j4?og;WS:ln1
+I6gnY0T:@Cz>S3B9ZCVHff0
+R0
+R1
+w1652368234
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/WR_CONTROL.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/WR_CONTROL.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/WR_CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/WR_CONTROL.v|
+!i113 1
+R3
+R4
+n@w@r_@c@o@n@t@r@o@l
+vWR_CONTROL_TB
+R5
+!i10b 1
+!s100 :m<B?0@1T`Gz9PU@T<H:X1
+ILOSI=]]afk:dh8FE?h^Dg2
+R0
+R1
+w1652366590
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/WR_CONTROL_TB.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/WR_CONTROL_TB.v
+L0 3
+R2
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/WR_CONTROL_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P5/E5/WR_CONTROL_TB.v|
+!i113 1
+R3
+R4
+n@w@r_@c@o@n@t@r@o@l_@t@b

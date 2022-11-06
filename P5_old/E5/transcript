@@ -1,0 +1,264 @@
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v failed with 1 errors.
+# Compile of MAIN_CONTROL_TB.v failed with 1 errors.
+# Compile of WR_CONTROL.v failed with 1 errors.
+# Compile of RD_CONTROL.v failed with 2 errors.
+# 6 compiles, 4 failed with 5 errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v failed with 12 errors.
+# Compile of MAIN_CONTROL_TB.v failed with 1 errors.
+# Compile of WR_CONTROL.v failed with 1 errors.
+# Compile of RD_CONTROL.v failed with 2 errors.
+# 6 compiles, 4 failed with 16 errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v failed with 1 errors.
+# Compile of WR_CONTROL.v failed with 1 errors.
+# Compile of RD_CONTROL.v failed with 2 errors.
+# 6 compiles, 3 failed with 4 errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v failed with 1 errors.
+# Compile of WR_CONTROL.v failed with 1 errors.
+# Compile of RD_CONTROL.v failed with 2 errors.
+# 6 compiles, 3 failed with 4 errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v failed with 1 errors.
+# Compile of RD_CONTROL.v failed with 2 errors.
+# 6 compiles, 2 failed with 3 errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v failed with 18 errors.
+# Compile of RD_CONTROL.v failed with 2 errors.
+# 6 compiles, 2 failed with 20 errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v failed with 6 errors.
+# Compile of RD_CONTROL.v failed with 2 errors.
+# 6 compiles, 2 failed with 8 errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v failed with 6 errors.
+# Compile of RD_CONTROL.v failed with 2 errors.
+# 6 compiles, 2 failed with 8 errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v failed with 2 errors.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v failed with 20 errors.
+# 6 compiles, 1 failed with 20 errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.MAIN_CONTROL_TB
+# vsim -gui work.MAIN_CONTROL_TB 
+# Start time: 18:33:19 on May 06,2022
+# Loading work.MAIN_CONTROL_TB
+# Loading work.MAIN_CONTROL
+add wave -position insertpoint  \
+sim:/MAIN_CONTROL_TB/clk \
+sim:/MAIN_CONTROL_TB/rst \
+sim:/MAIN_CONTROL_TB/rxrdy \
+sim:/MAIN_CONTROL_TB/rxdw \
+sim:/MAIN_CONTROL_TB/done_wr \
+sim:/MAIN_CONTROL_TB/done_rd \
+sim:/MAIN_CONTROL_TB/start_wr \
+sim:/MAIN_CONTROL_TB/start_rd \
+sim:/MAIN_CONTROL_TB/sleds
+run -all
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/E5/MAIN_CONTROL_TB.v(85)
+#    Time: 6142 ns  Iteration: 0  Instance: /MAIN_CONTROL_TB
+# Break in Module MAIN_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/E5/MAIN_CONTROL_TB.v line 85
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/damares/Documents/PSEFPGA/E5/wave_MAIN_CONTROL.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/damares/Documents/PSEFPGA/E5/wave_MAIN_CONTROL.do
+quit -sim
+# End time: 19:36:51 on May 06,2022, Elapsed time: 1:03:32
+# Errors: 0, Warnings: 0
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.RD_CONTROL_TB
+# vsim -gui work.RD_CONTROL_TB 
+# Start time: 19:37:43 on May 06,2022
+# Loading work.RD_CONTROL_TB
+# Loading work.RD_CONTROL
+add wave -position insertpoint  \
+sim:/RD_CONTROL_TB/clk \
+sim:/RD_CONTROL_TB/rst \
+sim:/RD_CONTROL_TB/txbusy \
+sim:/RD_CONTROL_TB/start_rd \
+sim:/RD_CONTROL_TB/txena \
+sim:/RD_CONTROL_TB/load_txregs \
+sim:/RD_CONTROL_TB/shift_txregs \
+sim:/RD_CONTROL_TB/done_rd \
+sim:/RD_CONTROL_TB/rd_leds
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/damares/Documents/PSEFPGA/E5/wave_RD_CONTROL.do
+run -all
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/E5/RD_CONTROL_TB.v(62)
+#    Time: 10201 ns  Iteration: 0  Instance: /RD_CONTROL_TB
+# Break in Module RD_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/E5/RD_CONTROL_TB.v line 62
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Loading work.RD_CONTROL_TB
+# Loading work.RD_CONTROL
+run -all
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/E5/RD_CONTROL_TB.v(62)
+#    Time: 10701 ns  Iteration: 0  Instance: /RD_CONTROL_TB
+# Break in Module RD_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/E5/RD_CONTROL_TB.v line 62
+add wave -position insertpoint sim:/RD_CONTROL_TB/dut1/count
+restart
+run -all
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/E5/RD_CONTROL_TB.v(62)
+#    Time: 10701 ns  Iteration: 0  Instance: /RD_CONTROL_TB
+# Break in Module RD_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/E5/RD_CONTROL_TB.v line 62
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/damares/Documents/PSEFPGA/E5/wave_RD_CONTROL.do
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Loading work.RD_CONTROL_TB
+# Loading work.RD_CONTROL
+run -all
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/E5/RD_CONTROL_TB.v(62)
+#    Time: 10701 ns  Iteration: 0  Instance: /RD_CONTROL_TB
+# Break in Module RD_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/E5/RD_CONTROL_TB.v line 62
+quit -sim
+# End time: 19:54:12 on May 06,2022, Elapsed time: 0:16:29
+# Errors: 0, Warnings: 0
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL_TB.v failed with 8 errors.
+# 8 compiles, 1 failed with 8 errors.
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL_TB.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.WR_CONTROL_TB
+# vsim -gui work.WR_CONTROL_TB 
+# Start time: 19:56:28 on May 06,2022
+# Loading work.WR_CONTROL_TB
+# Loading work.MAIN_CONTROL
+# ** Warning: (vsim-3017) C:/Users/damares/Documents/PSEFPGA/E5/WR_CONTROL_TB.v(26): [TFMPC] - Too few port connections. Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /WR_CONTROL_TB/dut1 File: C:/Users/damares/Documents/PSEFPGA/E5/MAIN_CONTROL.v
+# ** Error (suppressible): (vsim-3053) C:/Users/damares/Documents/PSEFPGA/E5/WR_CONTROL_TB.v(26): Illegal output or inout port connection for port 'start_wr'.
+#    Time: 0 ps  Iteration: 0  Instance: /WR_CONTROL_TB/dut1 File: C:/Users/damares/Documents/PSEFPGA/E5/MAIN_CONTROL.v
+# ** Error: (vsim-3063) C:/Users/damares/Documents/PSEFPGA/E5/WR_CONTROL_TB.v(26): Port 'load_confregs' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /WR_CONTROL_TB/dut1 File: C:/Users/damares/Documents/PSEFPGA/E5/MAIN_CONTROL.v
+# ** Error: (vsim-3063) C:/Users/damares/Documents/PSEFPGA/E5/WR_CONTROL_TB.v(26): Port 'wr_leds' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /WR_CONTROL_TB/dut1 File: C:/Users/damares/Documents/PSEFPGA/E5/MAIN_CONTROL.v
+# ** Error: (vsim-3063) C:/Users/damares/Documents/PSEFPGA/E5/WR_CONTROL_TB.v(26): Port 'shift_rxregs' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /WR_CONTROL_TB/dut1 File: C:/Users/damares/Documents/PSEFPGA/E5/MAIN_CONTROL.v
+# ** Warning: (vsim-3722) C:/Users/damares/Documents/PSEFPGA/E5/WR_CONTROL_TB.v(26): [TFMPC] - Missing connection for port 'rxdw'.
+# ** Warning: (vsim-3722) C:/Users/damares/Documents/PSEFPGA/E5/WR_CONTROL_TB.v(26): [TFMPC] - Missing connection for port 'done_rd'.
+# ** Warning: (vsim-3722) C:/Users/damares/Documents/PSEFPGA/E5/WR_CONTROL_TB.v(26): [TFMPC] - Missing connection for port 'start_rd'.
+# ** Warning: (vsim-3722) C:/Users/damares/Documents/PSEFPGA/E5/WR_CONTROL_TB.v(26): [TFMPC] - Missing connection for port 'sleds'.
+# Error loading design
+# End time: 19:56:29 on May 06,2022, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 5
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL_TB.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.WR_CONTROL_TB
+# vsim -gui work.WR_CONTROL_TB 
+# Start time: 19:57:18 on May 06,2022
+# Loading work.WR_CONTROL_TB
+# Loading work.WR_CONTROL
+add wave -position insertpoint  \
+sim:/WR_CONTROL_TB/PER \
+sim:/WR_CONTROL_TB/clk \
+sim:/WR_CONTROL_TB/rst \
+sim:/WR_CONTROL_TB/rxrdy \
+sim:/WR_CONTROL_TB/start_wr \
+sim:/WR_CONTROL_TB/shift_rxregs \
+sim:/WR_CONTROL_TB/load_confregs \
+sim:/WR_CONTROL_TB/done_wr \
+sim:/WR_CONTROL_TB/wr_leds
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/damares/Documents/PSEFPGA/E5/wave_WR_CONTROL.do
+run -all
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/E5/WR_CONTROL_TB.v(60)
+#    Time: 9101 ns  Iteration: 0  Instance: /WR_CONTROL_TB
+# Break in Module WR_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/E5/WR_CONTROL_TB.v line 60
+# End time: 20:01:40 on May 06,2022, Elapsed time: 0:04:22
+# Errors: 0, Warnings: 0

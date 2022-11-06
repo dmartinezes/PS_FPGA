@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Apr 07 21:45:55 2022
+Quartus Prime Version : 17.1.1 Internal Build 593 12/11/2017 SJ Lite Edition
+Revision Name : E3_Quartus
+Top-level Entity Name : CIC_wrap
+Family : Cyclone IV E
+Total logic elements : 283
+    Total combinational functions : 249
+    Dedicated logic registers : 278
+Total registers : 278
+Total pins : 36
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,62 @@
+module DP_MOD
+	(
+	input signed [15:0] i_data,
+	input rst,
+	input clk,
+	input val_in,
+	input c_fm_am, // Control modo fm/am
+	input [23:0] frec_por,
+	input [15:0] im_am,
+	input [15:0] im_fm,
+	output signed [15:0] o_data,
+	output val_out
+	);
+	
+
+//Multiplexor im_fm
+wire [15:0] out_mux;
+mux2_1 m1( .sel(c_fm_am), .A(0), .B(im_fm), .clk(clk), .out(out_mux));
+wire signed [16:0] out_mux_trunc;
+assign  out_mux_trunc [16:0] = out_mux [15:0];
+
+//Registro 1
+wire signed [16:0] out_mux_trunc_reg;
+register #(.n(17)) r1(.clk(clk), .reset(rst), .B(out_mux_trunc), .Q(out_mux_trunc_reg));
+
+//Multiplicacion A
+wire signed [32:0] mult1_out;
+assign mult1_out = i_data * out_mux_trunc_reg;
+wire signed [23:0] mult1_out_trunc;
+assign mult1_out_trunc [23:0] = mult1_out [30:7];//verificar formato mult_out
+
+//Registro 2
+wire signed [23:0] mult1_out_trunc_reg;
+register #(.n(24)) r2(.clk(clk), .reset(rst), .B(mult1_out), .Q(mult1_out_trunc_reg));
+
+//Suma A
+wire signed [23:0] sum1;
+wire signed [24:0] frec_por_s;
+assign frec_por_s = $signed({1'b0, frec_por});//No es necesario porque la salida tiene el mismo formato que las entradas
+assign sum1 = frec_por_s + mult1_out_trunc_reg;
+
+//Registro 3
+wire signed [23:0] sum1_reg;
+register #(.n(24)) r1(.clk(clk), .reset(rst), .B(sum1), .Q(sum1_reg));
+
+
+
+
+
+//Bloque onda senoidal
+DDS #(.M(24),.L(15),.W(16)) D1
+		(
+		.P(sum1_reg),
+		.rst_AC(rst), 
+		.en_AC(1),
+		.clk(clk),
+		.sin_wave(sin_wave)
+		);
+
+
+
+endmodule 

@@ -1,0 +1,204 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/17.1
+vDDS
+Z0 !s110 1647023701
+!i10b 1
+!s100 _VVZVM3f:[6`kn:QoXR@E1
+In<9<I^UCmKN2G^Rf<aS=P2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/damares/Documents/PSEFPGA/E2
+Z3 w1646997328
+Z4 8C:/Users/damares/Documents/PSEFPGA/E2/DDS.v
+Z5 FC:/Users/damares/Documents/PSEFPGA/E2/DDS.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1647023701.000000
+Z8 !s107 C:/Users/damares/Documents/PSEFPGA/E2/DDS.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/damares/Documents/PSEFPGA/E2/DDS.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@d@d@s
+vDDS_test
+!s110 1646997289
+!i10b 1
+!s100 RCmDT034d]7BAfc^4LhGc3
+IH1aAR_ZgfaCm5Fc7I3CI42
+R1
+R2
+w1646997269
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1646997289.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@d@d@s_test
+vDP_MOD
+R0
+!i10b 1
+!s100 DW7IPM8=VF6UZ^^LaBHCY2
+IJ0HN`@NTXhG40eh;ANR630
+R1
+R2
+w1647020988
+8C:/Users/damares/Documents/PSEFPGA/E2/DP_MOD.v
+FC:/Users/damares/Documents/PSEFPGA/E2/DP_MOD.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/damares/Documents/PSEFPGA/E2/DP_MOD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/damares/Documents/PSEFPGA/E2/DP_MOD.v|
+!i113 1
+R10
+R11
+n@d@p_@m@o@d
+vmult_add_tb
+!s110 1647020388
+!i10b 1
+!s100 5eQ`_4fUAcMdXH54?8;V_2
+IPco^cz6OA_zaF5:gk2:dL1
+R1
+R2
+w1647020298
+Z12 8C:/Users/damares/Documents/PSEFPGA/E2/TB_DP_MOD.v
+Z13 FC:/Users/damares/Documents/PSEFPGA/E2/TB_DP_MOD.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1647020388.000000
+!s107 C:/Users/damares/Documents/PSEFPGA/E2/TB_DP_MOD.v|
+Z14 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/damares/Documents/PSEFPGA/E2/TB_DP_MOD.v|
+!i113 1
+R10
+R11
+vmux2_1
+R0
+!i10b 1
+!s100 oM^G7on46T58l<4Wm04mk3
+I[mgXSmOFOW^OjGa<S:h=W2
+R1
+R2
+w1647021385
+8C:/Users/damares/Documents/PSEFPGA/E2/mux2_1.v
+FC:/Users/damares/Documents/PSEFPGA/E2/mux2_1.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/damares/Documents/PSEFPGA/E2/mux2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/damares/Documents/PSEFPGA/E2/mux2_1.v|
+!i113 1
+R10
+R11
+vregister
+R0
+!i10b 1
+!s100 KbaKfBXbo7^^oBgdlJCN:0
+IM>I=E[b0SDTT9izXPcEDb0
+R1
+R2
+w1646995573
+8C:/Users/damares/Documents/PSEFPGA/E2/register.v
+FC:/Users/damares/Documents/PSEFPGA/E2/register.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/damares/Documents/PSEFPGA/E2/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/damares/Documents/PSEFPGA/E2/register.v|
+!i113 1
+R10
+R11
+vrom_mem
+R0
+!i10b 1
+!s100 84Zam05E<TjQ=B;R6::N>1
+IS@H=e6gPjLHJQaDcFfiIk1
+R1
+R2
+R3
+R4
+R5
+L0 98
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vTB_DDS_test
+R0
+!i10b 1
+!s100 hGAMlkXbfKLg;[;52eL[=2
+IHf1m_<Jb?Y[NE]CK]O:;d2
+R1
+R2
+w1646392968
+8C:/Users/damares/Documents/PSEFPGA/E2/TB_DDS_test.v
+FC:/Users/damares/Documents/PSEFPGA/E2/TB_DDS_test.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/damares/Documents/PSEFPGA/E2/TB_DDS_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/damares/Documents/PSEFPGA/E2/TB_DDS_test.v|
+!i113 1
+R10
+R11
+n@t@b_@d@d@s_test
+vTB_DP_MOD
+R0
+!i10b 1
+!s100 7990NkSkBVdQFEHRYg5hP1
+ICYo<CUKb8k:fc2@mNk`Cn2
+R1
+R2
+w1647023665
+R12
+R13
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/damares/Documents/PSEFPGA/E2/TB_DP_MOD.v|
+R14
+!i113 1
+R10
+R11
+n@t@b_@d@p_@m@o@d

@@ -1,0 +1,5 @@
+En acumulador: Pe = round(...)/(2^M); 
+Registros sin reset ni enable.
+Camino crítico, análisis de recursos.
+No poner enunciado en memoria, meterlo todo dentro del punto 1 descripción.
+No meter pantallazos, simplemente escribir lo que se ha hecho e interpretar resultados.

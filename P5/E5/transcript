@@ -1,0 +1,426 @@
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL_TB.v was successful.
+# Compile of REGS_CONF_TB.v was successful.
+# Compile of REGS_CONF.v was successful.
+# Compile of CONF_CONTROL_TB.sv was successful.
+# Compile of CONF_CONTROL_VERIFICA.v was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.CONF_CONTROL_TB
+# vsim -gui work.CONF_CONTROL_TB 
+# Start time: 11:47:00 on May 20,2022
+# Loading sv_std.std
+# Loading work.CONF_CONTROL_TB
+# Loading work.CONF_CONTROL_VERIFICA
+# Loading work.REGS_CONF
+# Loading work.CONTROL
+# Loading work.MAIN_CONTROL
+# Loading work.WR_CONTROL
+# Loading work.RD_CONTROL
+do C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB_1.do
+run -all
+#  OK: txena is activated properly
+#  Data   1 transmitted OK
+#  OK: txena is activated properly
+#  Data   2 transmitted OK
+#  OK: txena is activated properly
+#  Data   3 transmitted OK
+#  OK: txena is activated properly
+#  Data   4 transmitted OK
+#  OK: txena is activated properly
+#  Data   5 transmitted OK
+#  OK: txena is activated properly
+#  Data   6 transmitted OK
+#  OK: txena is activated properly
+#  Data   7 transmitted OK
+#  OK: txena is activated properly
+#  Data   8 transmitted OK
+#  OK: txena is activated properly
+#  Data   9 transmitted OK
+#  OK: txena is activated properly
+#  Data  10 transmitted OK
+#  OK: txena is activated properly
+#  Data  11 transmitted OK
+#  CHECK CONFIGURATION REGISTER ====================
+#  Reg frec_mod configured OK
+#  Reg frec_por configured OK
+#  Reg im_am configured OK
+#  Reg im_fm configured OK
+#  Reg r_control configured OK
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv(75)
+#    Time: 6016 ps  Iteration: 0  Instance: /CONF_CONTROL_TB
+# Break in Module CONF_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv line 75
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL_TB.v was successful.
+# Compile of REGS_CONF_TB.v was successful.
+# Compile of REGS_CONF.v was successful.
+# Compile of CONF_CONTROL_TB.sv was successful.
+# Compile of CONF_CONTROL_VERIFICA.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.CONF_CONTROL_TB
+# Loading work.CONF_CONTROL_VERIFICA
+# Loading work.REGS_CONF
+# Loading work.CONTROL
+# Loading work.MAIN_CONTROL
+# Loading work.WR_CONTROL
+# Loading work.RD_CONTROL
+run -all
+#  OK: txena is activated properly
+#  Data   1 transmitted OK
+#  OK: txena is activated properly
+#  Data   2 transmitted OK
+#  OK: txena is activated properly
+#  Data   3 transmitted OK
+#  OK: txena is activated properly
+#  Data   4 transmitted OK
+#  OK: txena is activated properly
+#  Data   5 transmitted OK
+#  OK: txena is activated properly
+#  Data   6 transmitted OK
+#  OK: txena is activated properly
+#  Data   7 transmitted OK
+#  OK: txena is activated properly
+#  Data   8 transmitted OK
+#  OK: txena is activated properly
+#  Data   9 transmitted OK
+#  OK: txena is activated properly
+#  Data  10 transmitted OK
+#  OK: txena is activated properly
+#  Data  11 transmitted OK
+#  CHECK CONFIGURATION REGISTER ====================
+#  Reg frec_mod configured OK
+#  Reg frec_por configured OK
+#  Reg im_am configured OK
+#  Reg im_fm configured OK
+#  Reg r_control configured OK
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv(75)
+#    Time: 6016 ps  Iteration: 0  Instance: /CONF_CONTROL_TB
+# Break in Module CONF_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv line 75
+add wave -position insertpoint sim:/CONF_CONTROL_TB/DUT/C3/C2/count
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB_1.do
+restart
+run -all
+#  OK: txena is activated properly
+#  Data   1 transmitted OK
+#  OK: txena is activated properly
+#  Data   2 transmitted OK
+#  OK: txena is activated properly
+#  Data   3 transmitted OK
+#  OK: txena is activated properly
+#  Data   4 transmitted OK
+#  OK: txena is activated properly
+#  Data   5 transmitted OK
+#  OK: txena is activated properly
+#  Data   6 transmitted OK
+#  OK: txena is activated properly
+#  Data   7 transmitted OK
+#  OK: txena is activated properly
+#  Data   8 transmitted OK
+#  OK: txena is activated properly
+#  Data   9 transmitted OK
+#  OK: txena is activated properly
+#  Data  10 transmitted OK
+#  OK: txena is activated properly
+#  Data  11 transmitted OK
+#  CHECK CONFIGURATION REGISTER ====================
+#  Reg frec_mod configured OK
+#  Reg frec_por configured OK
+#  Reg im_am configured OK
+#  Reg im_fm configured OK
+#  Reg r_control configured OK
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv(75)
+#    Time: 6016 ps  Iteration: 0  Instance: /CONF_CONTROL_TB
+# Break in Module CONF_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv line 75
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL_TB.v was successful.
+# Compile of REGS_CONF_TB.v was successful.
+# Compile of REGS_CONF.v was successful.
+# Compile of CONF_CONTROL_TB.sv was successful.
+# Compile of CONF_CONTROL_VERIFICA.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.CONF_CONTROL_TB
+# Loading work.CONF_CONTROL_VERIFICA
+# Loading work.REGS_CONF
+# Loading work.CONTROL
+# Loading work.MAIN_CONTROL
+# Loading work.WR_CONTROL
+# Loading work.RD_CONTROL
+run -all
+#  OK: txena is activated properly
+#  Data   1 transmitted OK
+#  OK: txena is activated properly
+#  Data   2 transmitted OK
+#  OK: txena is activated properly
+#  Data   3 transmitted OK
+#  OK: txena is activated properly
+#  Data   4 transmitted OK
+#  OK: txena is activated properly
+#  Data   5 transmitted OK
+#  OK: txena is activated properly
+#  Data   6 transmitted OK
+#  OK: txena is activated properly
+#  Data   7 transmitted OK
+#  OK: txena is activated properly
+#  Data   8 transmitted OK
+#  OK: txena is activated properly
+#  Data   9 transmitted OK
+#  OK: txena is activated properly
+#  Data  10 transmitted OK
+#  OK: txena is activated properly
+#  Data  11 transmitted OK
+#  CHECK CONFIGURATION REGISTER ====================
+#  Reg frec_mod configured OK
+#  Reg frec_por configured OK
+#  Reg im_am configured OK
+#  Reg im_fm configured OK
+#  Reg r_control configured OK
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv(75)
+#    Time: 6016 ps  Iteration: 0  Instance: /CONF_CONTROL_TB
+# Break in Module CONF_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv line 75
+add wave -position insertpoint sim:/CONF_CONTROL_TB/DUT/C3/C3/shift_txregs
+restart
+run -all
+#  OK: txena is activated properly
+#  Data   1 transmitted OK
+#  OK: txena is activated properly
+#  Data   2 transmitted OK
+#  OK: txena is activated properly
+#  Data   3 transmitted OK
+#  OK: txena is activated properly
+#  Data   4 transmitted OK
+#  OK: txena is activated properly
+#  Data   5 transmitted OK
+#  OK: txena is activated properly
+#  Data   6 transmitted OK
+#  OK: txena is activated properly
+#  Data   7 transmitted OK
+#  OK: txena is activated properly
+#  Data   8 transmitted OK
+#  OK: txena is activated properly
+#  Data   9 transmitted OK
+#  OK: txena is activated properly
+#  Data  10 transmitted OK
+#  OK: txena is activated properly
+#  Data  11 transmitted OK
+#  CHECK CONFIGURATION REGISTER ====================
+#  Reg frec_mod configured OK
+#  Reg frec_por configured OK
+#  Reg im_am configured OK
+#  Reg im_fm configured OK
+#  Reg r_control configured OK
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv(75)
+#    Time: 6016 ps  Iteration: 0  Instance: /CONF_CONTROL_TB
+# Break in Module CONF_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv line 75
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB_1.do
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL_TB.v was successful.
+# Compile of REGS_CONF_TB.v was successful.
+# Compile of REGS_CONF.v was successful.
+# Compile of CONF_CONTROL_TB.sv was successful.
+# Compile of CONF_CONTROL_VERIFICA.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.CONF_CONTROL_TB
+# Loading work.CONF_CONTROL_VERIFICA
+# Loading work.REGS_CONF
+# Loading work.CONTROL
+# Loading work.MAIN_CONTROL
+# Loading work.WR_CONTROL
+# Loading work.RD_CONTROL
+run -all
+#  OK: txena is activated properly
+#  Data   1 transmitted OK
+#  OK: txena is activated properly
+#  Data   2 transmitted OK
+#  OK: txena is activated properly
+#  Data   3 transmitted OK
+#  OK: txena is activated properly
+#  Data   4 transmitted OK
+#  OK: txena is activated properly
+#  Data   5 transmitted OK
+#  OK: txena is activated properly
+#  Data   6 transmitted OK
+#  OK: txena is activated properly
+#  Data   7 transmitted OK
+#  OK: txena is activated properly
+#  Data   8 transmitted OK
+#  OK: txena is activated properly
+#  Data   9 transmitted OK
+#  OK: txena is activated properly
+#  Data  10 transmitted OK
+#  OK: txena is activated properly
+#  Data  11 transmitted OK
+#  OK: txena is activated properly
+# ** Error:  TX data should be  12
+#    Time: 4985 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  13
+#    Time: 5115 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  14
+#    Time: 5245 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  15
+#    Time: 5375 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  16
+#    Time: 5505 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  17
+#    Time: 5635 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  18
+#    Time: 5765 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  19
+#    Time: 5895 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  CHECK CONFIGURATION REGISTER ====================
+#  Reg frec_mod configured OK
+#  Reg frec_por configured OK
+#  Reg im_am configured OK
+#  Reg im_fm configured OK
+#  Reg r_control configured OK
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv(75)
+#    Time: 6016 ps  Iteration: 0  Instance: /CONF_CONTROL_TB
+# Break in Module CONF_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv line 75
+add wave -position insertpoint sim:/CONF_CONTROL_TB/DUT/C3/C3/done_rd
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB_1.do
+restart
+run -all
+#  OK: txena is activated properly
+#  Data   1 transmitted OK
+#  OK: txena is activated properly
+#  Data   2 transmitted OK
+#  OK: txena is activated properly
+#  Data   3 transmitted OK
+#  OK: txena is activated properly
+#  Data   4 transmitted OK
+#  OK: txena is activated properly
+#  Data   5 transmitted OK
+#  OK: txena is activated properly
+#  Data   6 transmitted OK
+#  OK: txena is activated properly
+#  Data   7 transmitted OK
+#  OK: txena is activated properly
+#  Data   8 transmitted OK
+#  OK: txena is activated properly
+#  Data   9 transmitted OK
+#  OK: txena is activated properly
+#  Data  10 transmitted OK
+#  OK: txena is activated properly
+#  Data  11 transmitted OK
+#  OK: txena is activated properly
+# ** Error:  TX data should be  12
+#    Time: 4985 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  13
+#    Time: 5115 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  14
+#    Time: 5245 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  15
+#    Time: 5375 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  16
+#    Time: 5505 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  17
+#    Time: 5635 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  18
+#    Time: 5765 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  OK: txena is activated properly
+# ** Error:  TX data should be  19
+#    Time: 5895 ps  Scope: CONF_CONTROL_TB.Assert_tx File: C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv Line: 105
+#  CHECK CONFIGURATION REGISTER ====================
+#  Reg frec_mod configured OK
+#  Reg frec_por configured OK
+#  Reg im_am configured OK
+#  Reg im_fm configured OK
+#  Reg r_control configured OK
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv(75)
+#    Time: 6016 ps  Iteration: 0  Instance: /CONF_CONTROL_TB
+# Break in Module CONF_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv line 75
+# Compile of CONF_CONTROL.v was successful.
+# Compile of CONTROL.v was successful.
+# Compile of MAIN_CONTROL.v was successful.
+# Compile of MAIN_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL.v was successful.
+# Compile of RD_CONTROL.v was successful.
+# Compile of RD_CONTROL_TB.v was successful.
+# Compile of WR_CONTROL_TB.v was successful.
+# Compile of REGS_CONF_TB.v was successful.
+# Compile of REGS_CONF.v was successful.
+# Compile of CONF_CONTROL_TB.sv was successful.
+# Compile of CONF_CONTROL_VERIFICA.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.CONF_CONTROL_TB
+# Loading work.CONF_CONTROL_VERIFICA
+# Loading work.REGS_CONF
+# Loading work.CONTROL
+# Loading work.MAIN_CONTROL
+# Loading work.WR_CONTROL
+# Loading work.RD_CONTROL
+run -all
+#  OK: txena is activated properly
+#  Data   1 transmitted OK
+#  OK: txena is activated properly
+#  Data   2 transmitted OK
+#  OK: txena is activated properly
+#  Data   3 transmitted OK
+#  OK: txena is activated properly
+#  Data   4 transmitted OK
+#  OK: txena is activated properly
+#  Data   5 transmitted OK
+#  OK: txena is activated properly
+#  Data   6 transmitted OK
+#  OK: txena is activated properly
+#  Data   7 transmitted OK
+#  OK: txena is activated properly
+#  Data   8 transmitted OK
+#  OK: txena is activated properly
+#  Data   9 transmitted OK
+#  OK: txena is activated properly
+#  Data  10 transmitted OK
+#  OK: txena is activated properly
+#  Data  11 transmitted OK
+#  CHECK CONFIGURATION REGISTER ====================
+#  Reg frec_mod configured OK
+#  Reg frec_por configured OK
+#  Reg im_am configured OK
+#  Reg im_fm configured OK
+#  Reg r_control configured OK
+# ** Note: $stop    : C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv(75)
+#    Time: 6016 ps  Iteration: 0  Instance: /CONF_CONTROL_TB
+# Break in Module CONF_CONTROL_TB at C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv line 75
+# Break key hit
+quit -sim
+# End time: 16:33:38 on May 20,2022, Elapsed time: 4:46:38
+# Errors: 16, Warnings: 0

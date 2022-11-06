@@ -1,0 +1,102 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do SEC_FILTER_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {SEC_FILTER_6_1200mv_85c_slow.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:20:20 on May 11,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." SEC_FILTER_6_1200mv_85c_slow.vo 
+# -- Compiling module SEC_FILTER
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	SEC_FILTER
+# End time: 11:20:21 on May 11,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus {C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:20:21 on May 11,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus" C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v 
+# -- Compiling module TB_SEC_FILTER
+# 
+# Top level modules:
+# 	TB_SEC_FILTER
+# End time: 11:20:21 on May 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  TB_SEC_FILTER
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" TB_SEC_FILTER 
+# Start time: 11:20:21 on May 11,2022
+# Loading work.TB_SEC_FILTER
+# Loading work.SEC_FILTER
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_mac_mult
+# Loading cycloneive_ver.cycloneive_mac_data_reg
+# Loading cycloneive_ver.cycloneive_mac_sign_reg
+# Loading cycloneive_ver.cycloneive_mac_mult_internal
+# Loading cycloneive_ver.cycloneive_mac_out
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# 
+# Loading instances from SEC_FILTER_6_1200mv_85c_v_slow.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from SEC_FILTER_6_1200mv_85c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SEC_FILTER File: C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(290): $hold( posedge clk &&& nosloadsclr:1447 ps, d:1447 ps, 157 ps );
+#    Time: 1447 ps  Iteration: 0  Instance: /TB_SEC_FILTER/DUT/\rom|data[4] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(291): $hold( posedge clk &&& reset:1450 ps, sclr:1531 ps, 157 ps );
+#    Time: 1531 ps  Iteration: 1  Instance: /TB_SEC_FILTER/DUT/\dut1|addr[4] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(291): $hold( posedge clk &&& reset:1450 ps, sclr:1531 ps, 157 ps );
+#    Time: 1531 ps  Iteration: 1  Instance: /TB_SEC_FILTER/DUT/\dut1|addr[3] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(291): $hold( posedge clk &&& reset:1450 ps, sclr:1531 ps, 157 ps );
+#    Time: 1531 ps  Iteration: 1  Instance: /TB_SEC_FILTER/DUT/\dut1|addr[2] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(291): $hold( posedge clk &&& reset:1450 ps, sclr:1531 ps, 157 ps );
+#    Time: 1531 ps  Iteration: 1  Instance: /TB_SEC_FILTER/DUT/\dut1|addr[1] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(291): $hold( posedge clk &&& reset:1450 ps, sclr:1531 ps, 157 ps );
+#    Time: 1531 ps  Iteration: 1  Instance: /TB_SEC_FILTER/DUT/\dut1|addr[0] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(290): $hold( posedge clk &&& nosloadsclr:1452 ps, d:1560 ps, 157 ps );
+#    Time: 1560 ps  Iteration: 0  Instance: /TB_SEC_FILTER/DUT/\rom|data[9] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(293): $hold( posedge clk &&& sloaddata:1450 ps, asdata:1581 ps, 157 ps );
+#    Time: 1581 ps  Iteration: 0  Instance: /TB_SEC_FILTER/DUT/\regMux|sel_reg[3] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(292): $hold( posedge clk &&& reset:1447 ps, sload:1585 ps, 157 ps );
+#    Time: 1585 ps  Iteration: 0  Instance: /TB_SEC_FILTER/DUT/\dout_mux_reg[12] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(292): $hold( posedge clk &&& reset:1447 ps, sload:1585 ps, 157 ps );
+#    Time: 1585 ps  Iteration: 0  Instance: /TB_SEC_FILTER/DUT/\dout_mux_reg[8] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(292): $hold( posedge clk &&& reset:1447 ps, sload:1585 ps, 157 ps );
+#    Time: 1585 ps  Iteration: 0  Instance: /TB_SEC_FILTER/DUT/\dout_mux_reg[7] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(292): $hold( posedge clk &&& reset:1447 ps, sload:1585 ps, 157 ps );
+#    Time: 1585 ps  Iteration: 0  Instance: /TB_SEC_FILTER/DUT/\dout_mux_reg[5] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(292): $hold( posedge clk &&& reset:1447 ps, sload:1585 ps, 157 ps );
+#    Time: 1585 ps  Iteration: 0  Instance: /TB_SEC_FILTER/DUT/\dout_mux_reg[4] 
+# ** Error: /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_primitives.v(292): $hold( posedge clk &&& reset:1447 ps, sload:1585 ps, 157 ps );
+#    Time: 1585 ps  Iteration: 0  Instance: /TB_SEC_FILTER/DUT/\dout_mux_reg[0] 
+# Number of checked samples         100
+# Number of errors           0
+# ** Note: $stop    : C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v(91)
+#    Time: 2000190 ns  Iteration: 0  Instance: /TB_SEC_FILTER
+# Break in Module TB_SEC_FILTER at C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v line 91
+# End time: 11:23:24 on May 11,2022, Elapsed time: 0:03:03
+# Errors: 14, Warnings: 0

@@ -1,0 +1,5 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,DP_COMPLETMOD:U1|DP_MOD:dp_mod|lpm_mult:Mult2|mult_56t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,DP_COMPLETMOD:U1|DP_MOD:dp_mod|lpm_mult:Mult1|mult_56t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,DP_COMPLETMOD:U1|DP_MOD:dp_mod|lpm_mult:Mult0|mult_56t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,DP_COMPLETMOD:U1|SEC_FILTER:sec_filter|MULT_ACC:multAcc|lpm_mult:Mult0|mult_86t:auto_generated|mac_out2,

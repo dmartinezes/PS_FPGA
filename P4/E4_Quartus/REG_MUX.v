@@ -1,0 +1,48 @@
+module REG_MUX
+#(parameter Win=16, // Cuantificación de la entrada y salida
+  parameter Num_coef = 17) // Numero de datos a procesar
+  (input  signed [Win-1:0] din  , // entrada
+   input  [log2(Num_coef)-1:0] sel, // selector del mux
+   input  clk, 
+   input ce,
+   output signed [Win-1:0] dout); // salida 
+
+  reg [Win-1:0] reg_array[Num_coef-1:0];
+  reg [log2(Num_coef)-1:0] sel_reg;
+
+  integer i;
+
+  initial begin
+    for (i = Num_coef-1 ; i >= 0 ; i = i - 1)
+        reg_array[i] <= {(Win){1'b0}}; //inicializacion reg_array a 0
+  end
+
+  always @(posedge clk) begin
+
+    sel_reg <= sel;
+
+    if (ce == 1'b1) begin
+
+      reg_array[0] <= din;
+      for (i = Num_coef-1 ; i > 0 ; i = i - 1)
+        reg_array[i] <= reg_array[i-1];
+
+    end
+
+  end
+
+  assign dout = reg_array[sel_reg];
+
+  function integer log2;
+    input integer value;
+    begin
+      value = value-1;
+      for (log2=0; value>0; log2=log2+1)
+        value = value>>1;
+    end
+  endfunction
+  
+endmodule
+			
+
+   

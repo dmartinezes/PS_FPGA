@@ -1,0 +1,83 @@
+module REGS_CONF
+	(
+	input [7:0] rxdw, 		// rx dw from RS232
+	input	clk, 		// clk 
+	input  load_confregs, 	// load configuration registers
+	input  shift_rxregs, 	// shift rx registers
+	input  load_txregs, 	// load conf_regs in tx_regs
+	input  shift_txregs, 	// shift tx registers
+	output [7:0] txdw, 		// tx dw to RS232
+	output [7:0] r_control,
+	output [23:0] r_frec_mod,
+	output [23:0] r_frec_por,
+	output [15:0] r_im_am,
+	output [15:0] r_im_fm
+	);
+
+	reg [7:0] reg_array [10:0];
+	reg [7:0] reg_array_confregs [10:0];
+	reg [7:0] reg_array_txregs [10:0];
+	reg [7:0] reg_array_out [10:0];
+
+	integer i;
+
+	always @(posedge clk) begin
+
+		if (shift_rxregs) begin
+
+			reg_array[10] <= rxdw;
+			for (i = 9 ; i >= 0 ; i = i - 1)
+        		reg_array[i] <= reg_array[i+1];
+
+		end
+
+		if (load_confregs) begin
+
+			for (i = 10 ; i >= 0 ; i = i - 1) 
+				reg_array_confregs[i] <= reg_array[i];
+			
+		end
+
+		if (load_txregs) begin
+
+			for (i = 10 ; i >= 0 ; i = i - 1) 
+				reg_array_txregs[i] <= reg_array_confregs[i];
+			
+		end
+
+		if (shift_txregs) begin
+
+			for (i = 9 ; i >= 0 ; i = i - 1)
+        		reg_array_out[i] <= reg_array_txregs[i+1];
+
+		end
+
+
+
+	end
+
+	// Salidas desde registros de configuración
+
+	assign r_frec_mod [7:0] = reg_array_confregs[0];
+	assign r_frec_mod [15:8] = reg_array_confregs[1];
+	assign r_frec_mod [23:16] = reg_array_confregs[2];
+
+	assign r_frec_por [7:0] = reg_array_confregs[3];
+	assign r_frec_por [15:8] = reg_array_confregs[4];
+	assign r_frec_por [23:16] = reg_array_confregs[5];
+
+	assign r_im_am [7:0] = reg_array_confregs[6];
+	assign r_im_am [15:8] = reg_array_confregs[7];
+
+	assign r_im_fm [7:0] = reg_array_confregs[8];
+	assign r_im_fm [15:8] = reg_array_confregs[9];
+
+	assign r_control [7:0] = reg_array_confregs[10];
+
+	// Salida desde registro de desplazamiento TX
+	
+	assign txdw [7:0] = reg_array_out[0];
+	 
+
+
+endmodule 

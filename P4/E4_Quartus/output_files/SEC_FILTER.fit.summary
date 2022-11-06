@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed May 11 11:36:08 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : SEC_FILTER
+Top-level Entity Name : SEC_FILTER
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 454 / 6,272 ( 7 % )
+    Total combinational functions : 225 / 6,272 ( 4 % )
+    Dedicated logic registers : 417 / 6,272 ( 7 % )
+Total registers : 417
+Total pins : 39 / 92 ( 42 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 2 / 30 ( 7 % )
+Total PLLs : 0 / 2 ( 0 % )

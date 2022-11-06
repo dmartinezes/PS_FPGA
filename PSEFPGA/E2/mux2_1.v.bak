@@ -1,0 +1,10 @@
+module mux2_1 (sel, A, B, clk, out);
+	input sel, A, B, clk;
+	output reg out;
+
+	always @(posedge clk)
+		if(c_fm_am == 0)
+			out = A;
+		else 
+			out = B;
+endmodule 

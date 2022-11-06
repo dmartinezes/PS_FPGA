@@ -1,0 +1,6 @@
+DUDAS
+RD_CONTROL: en el ciclo 11, ¿hay que esperar a que este txbusy a 0 de nuevo para decir done_rd? 
+
+POR HACER
+Test bench RESG_CONF: Añadir para que shift de la salida desplace 11 veces
+			Poner que el dato de entrada sean 11 nums distintos.

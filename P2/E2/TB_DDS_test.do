@@ -1,0 +1,47 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -divider {Parámetros configurados}
+add wave -noupdate /TB_DDS_test/M
+add wave -noupdate /TB_DDS_test/L
+add wave -noupdate /TB_DDS_test/W
+add wave -noupdate -radix unsigned /TB_DDS_test/P_VALUE
+add wave -noupdate -divider {Entradas al DDS}
+add wave -noupdate /TB_DDS_test/clk
+add wave -noupdate -radix unsigned /TB_DDS_test/P
+add wave -noupdate /TB_DDS_test/rst_ac
+add wave -noupdate /TB_DDS_test/ena_ac
+add wave -noupdate /TB_DDS_test/val_in
+add wave -noupdate -divider {Salidas del DDS}
+add wave -noupdate /TB_DDS_test/val_out
+add wave -noupdate -radix decimal /TB_DDS_test/sin_wave
+add wave -noupdate -radix decimal /TB_DDS_test/ramp_wave
+add wave -noupdate -radix decimal /TB_DDS_test/sqr_wave
+add wave -noupdate -divider {Comparación _M con _F}
+add wave -noupdate -color Orange -format Analog-Step -height 74 -max 8191.0 -min -8191.0 -radix decimal /TB_DDS_test/sin_wave_M
+add wave -noupdate -color Cyan -format Analog-Step -height 74 -max 8191.0 -min -8191.0 -radix decimal /TB_DDS_test/sin_wave_F
+add wave -noupdate -color Orange -format Analog-Step -height 74 -max 8191.0000000000018 -min -8029.0 -radix decimal /TB_DDS_test/ramp_wave_M
+add wave -noupdate -color Cyan -format Analog-Step -height 74 -max 8191.0000000000018 -min -8029.0 -radix decimal /TB_DDS_test/ramp_wave_F
+add wave -noupdate -color Orange -format Analog-Step -height 74 -max 8191.0 -min -8191.0 -radix decimal /TB_DDS_test/sqr_wave_M
+add wave -noupdate -color Cyan -format Analog-Step -height 74 -max 8191.0 -min -8191.0 -radix decimal /TB_DDS_test/sqr_wave_F
+add wave -noupdate -divider {Monitorización de errores}
+add wave -noupdate -color Violet /TB_DDS_test/error_cnt
+add wave -noupdate /TB_DDS_test/sample_cnt
+add wave -noupdate /TB_DDS_test/end_sim
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {948878 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 235
+configure wave -valuecolwidth 140
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ps
+update
+WaveRestoreZoom {0 ps} {5993236 ps}

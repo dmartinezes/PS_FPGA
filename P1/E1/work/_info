@@ -1,0 +1,117 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vDDS_test
+Z0 !s110 1652953538
+!i10b 1
+!s100 ]aTE=i3KmA;F6oE:d0l5j0
+I5Rmg8_Z=[Q[EC[8eMPMzb3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1
+Z3 w1652953531
+Z4 8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/DDS_test.v
+Z5 FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/DDS_test.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1652953538.000000
+Z8 !s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/DDS_test.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/DDS_test.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@d@d@s_test
+vregister
+!s110 1652953539
+!i10b 1
+!s100 KbaKfBXbo7^^oBgdlJCN:0
+IaQ`CV69GG0X[lm7FkMAMn0
+R1
+R2
+w1652953500
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/register.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/register.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/register.v|
+!i113 1
+R10
+R11
+vregnbits
+!s110 1646129571
+!i10b 1
+!s100 Gdm8OKK909oiCch0UE_JA2
+I>COjmX[o2eSV]GV<aao`b1
+R1
+dC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/E1
+w1646127320
+8C:\Users\Usuario\Desktop\Procesado_Digital_de_la_Senyal_en_FPGA\P1\E1\register.v
+FC:\Users\Usuario\Desktop\Procesado_Digital_de_la_Senyal_en_FPGA\P1\E1\register.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1646129571.000000
+!s107 C:\Users\Usuario\Desktop\Procesado_Digital_de_la_Senyal_en_FPGA\P1\E1\register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Usuario\Desktop\Procesado_Digital_de_la_Senyal_en_FPGA\P1\E1\register.v|
+!i113 1
+R10
+R11
+vrom_mem
+R0
+!i10b 1
+!s100 F;5SJL^mC@YBmJlUhFIz:2
+Ig84QDaW3jTK9L6_k9Y=@=3
+R1
+R2
+R3
+R4
+R5
+L0 96
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vTB_DDS_test
+R0
+!i10b 1
+!s100 PTKOcMbE1g<>zZ<VX<:J_3
+IL6c9KoJ]e935VQ?YN0iJE1
+R1
+R2
+w1646218062
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/TB_DDS_test.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/TB_DDS_test.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/TB_DDS_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/Practica_1/E1/TB_DDS_test.v|
+!i113 1
+R10
+R11
+n@t@b_@d@d@s_test

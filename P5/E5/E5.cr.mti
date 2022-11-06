@@ -1,0 +1,85 @@
+./MAIN_CONTROL_TB.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/MAIN_CONTROL_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MAIN_CONTROL_TB
+
+Top level modules:
+	MAIN_CONTROL_TB
+
+} {} {}} ./REGS_CONF_TB.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/REGS_CONF_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module REGS_CONF_TB
+
+Top level modules:
+	REGS_CONF_TB
+
+} {} {}} ./REGS_CONF.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/REGS_CONF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module REGS_CONF
+
+Top level modules:
+	REGS_CONF
+
+} {} {}} ./CONF_CONTROL.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONF_CONTROL
+
+Top level modules:
+	CONF_CONTROL
+
+} {} {}} ./WR_CONTROL.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/WR_CONTROL.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module WR_CONTROL
+
+Top level modules:
+	WR_CONTROL
+
+} {} {}} ./CONTROL.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/CONTROL.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL
+
+Top level modules:
+	CONTROL
+
+} {} {}} ./RD_CONTROL_TB.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/RD_CONTROL_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RD_CONTROL_TB
+
+Top level modules:
+	RD_CONTROL_TB
+
+} {} {}} ./MAIN_CONTROL.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/MAIN_CONTROL.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MAIN_CONTROL
+
+Top level modules:
+	MAIN_CONTROL
+
+} {} {}} ./RD_CONTROL.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/RD_CONTROL.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RD_CONTROL
+
+Top level modules:
+	RD_CONTROL
+
+} {} {}} ./WR_CONTROL_TB.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/WR_CONTROL_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module WR_CONTROL_TB
+
+Top level modules:
+	WR_CONTROL_TB
+
+} {} {}} ./CONF_CONTROL_TB.sv {1 {vlog -work work -sv -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONF_CONTROL_TB
+
+Top level modules:
+	CONF_CONTROL_TB
+
+} {} {}} ./CONF_CONTROL_VERIFICA.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/P5/E5/CONF_CONTROL_VERIFICA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONF_CONTROL_VERIFICA
+
+Top level modules:
+	CONF_CONTROL_VERIFICA
+
+} {} {}}

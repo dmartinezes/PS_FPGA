@@ -1,0 +1,424 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P1/E1
+vCIC
+Z0 !s110 1665423538
+!i10b 1
+!s100 lgYMf^KMHkTUjY7MNUkQj2
+I5Azm2om=;I5=VcFKF_=UU3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6
+w1653930386
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CIC.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CIC.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1665423538.000000
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CIC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CIC.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@c@i@c
+vCIC_pc
+R0
+!i10b 1
+!s100 >UH;^UeJ8K29P3SU7OWbT0
+I_[ML6nNV^eP328HT3b6A<0
+R1
+R2
+w1653066283
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CIC_pc.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CIC_pc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CIC_pc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CIC_pc.v|
+!i113 1
+R5
+R6
+n@c@i@c_pc
+vCOMB
+Z7 !s110 1665423539
+!i10b 1
+!s100 eEWQ7Z4Alo@nC[9K<bMU=2
+IFKZFK]O7Ml<3lnGjIOdEL2
+R1
+R2
+w1649352422
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/COMB.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/COMB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/COMB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/COMB.v|
+!i113 1
+R5
+R6
+n@c@o@m@b
+vCONTROL
+R7
+!i10b 1
+!s100 Cm=8i_diaSO15PLeVm4^93
+II`i:K7IFZSl0Ia;KJbkzd0
+R1
+R2
+w1652264570
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CONTROL.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CONTROL.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1665423539.000000
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/CONTROL.v|
+!i113 1
+R5
+R6
+n@c@o@n@t@r@o@l
+vDDS
+R0
+!i10b 1
+!s100 Wii6YcLeQJV[Bz84P=l:f3
+IS5XlN92oI2`CX4J>c6oi72
+R1
+R2
+Z9 w1653643433
+Z10 8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DDS.v
+Z11 FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DDS.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z12 !s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DDS.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DDS.v|
+!i113 1
+R5
+R6
+n@d@d@s
+vDDS_test
+R0
+!i10b 1
+!s100 5G[z>];n8e8M5c8fYPD8>0
+I]UWKPFTM[BKa4^H^_1>V>2
+R1
+R2
+Z14 w1653500914
+Z15 8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DDS_test.v
+Z16 FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DDS_test.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z17 !s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DDS_test.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DDS_test.v|
+!i113 1
+R5
+R6
+n@d@d@s_test
+vDP_COMPLETMOD
+R0
+!i10b 1
+!s100 8_2N;?L8NdF[gSjB_eB^@3
+I?<QknlJ2c;6ogY=4BJ0nR0
+R1
+R2
+w1653901073
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DP_COMPLETMOD.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DP_COMPLETMOD.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DP_COMPLETMOD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DP_COMPLETMOD.v|
+!i113 1
+R5
+R6
+n@d@p_@c@o@m@p@l@e@t@m@o@d
+vDP_MOD
+Z19 !s110 1665423540
+!i10b 1
+!s100 oQf@8eAQSQ3H]P[k<`L^^2
+IWobFHD6ZR9P:[=VTVhKUO1
+R1
+R2
+w1653070782
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DP_MOD.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DP_MOD.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z20 !s108 1665423540.000000
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DP_MOD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/DP_MOD.v|
+!i113 1
+R5
+R6
+n@d@p_@m@o@d
+vINT
+R7
+!i10b 1
+!s100 YU:WNS[bNOh0AIWdNHRgU2
+I@>7IJ42EbGB?WDD1<iOCJ2
+R1
+R2
+w1649344926
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/INT.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/INT.v
+L0 2
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/INT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/INT.v|
+!i113 1
+R5
+R6
+n@i@n@t
+vMULT_ACC
+R7
+!i10b 1
+!s100 c<NIj[an`kN@iP]BSHCzU1
+IE;VR2KCaL42i>bE8l;IcF3
+R1
+R2
+w1651161572
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/MULT_ACC.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/MULT_ACC.v
+L0 2
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/MULT_ACC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/MULT_ACC.v|
+!i113 1
+R5
+R6
+n@m@u@l@t_@a@c@c
+vmux2_1
+R0
+!i10b 1
+!s100 oM^G7on46T58l<4Wm04mk3
+IB70`5mC313MI053eOfOPa3
+R1
+R2
+w1647021385
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/mux2_1.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/mux2_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/mux2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/mux2_1.v|
+!i113 1
+R5
+R6
+vR_INT
+R7
+!i10b 1
+!s100 1agj1V<kScJbZL9?IBRXA2
+IZz>[=d`0AGZhHoa=YSSl20
+R1
+R2
+w1653640459
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/R_INT.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/R_INT.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/R_INT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/R_INT.v|
+!i113 1
+R5
+R6
+n@r_@i@n@t
+vREG_MUX
+R7
+!i10b 1
+!s100 Kklz;E]MC8VdK0<L>IQbc3
+IeEJBjUi9mXa=JUHbUH>b23
+R1
+R2
+w1652029519
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/REG_MUX.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/REG_MUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/REG_MUX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/REG_MUX.v|
+!i113 1
+R5
+R6
+n@r@e@g_@m@u@x
+vregister
+R0
+!i10b 1
+!s100 KbaKfBXbo7^^oBgdlJCN:0
+I@m3YnJ]<F<V=12J2MdWaE1
+R1
+R2
+w1652953500
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/register.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/register.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/register.v|
+!i113 1
+R5
+R6
+vROM
+R19
+!i10b 1
+!s100 bGZFULIGDl2H3^7AV?=XU3
+Ik4JlhUdP63[j^^<XGY?YI1
+R1
+R2
+w1651134662
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/ROM.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/ROM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/ROM.v|
+!i113 1
+R5
+R6
+n@r@o@m
+vrom_mem
+R0
+!i10b 1
+!s100 F;5SJL^mC@YBmJlUhFIz:2
+Izc<Sg7zR4QJbWocX?eDYO2
+R1
+R2
+R14
+R15
+R16
+L0 96
+R3
+r1
+!s85 0
+31
+R4
+R17
+R18
+!i113 1
+R5
+R6
+vrom_mem2
+R0
+!i10b 1
+!s100 @O]2ko2hXf^kA897L9e?13
+I<T7m>XObBoI<oSa_]n8@l0
+R1
+R2
+R9
+R10
+R11
+L0 98
+R3
+r1
+!s85 0
+31
+R4
+R12
+R13
+!i113 1
+R5
+R6
+vSEC_FILTER
+R19
+!i10b 1
+!s100 mQ=Vdz19L@>I>g]LzP]8H1
+I4hURYOXIdFaU4[g6o9K_n1
+R1
+R2
+w1652260080
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/SEC_FILTER.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/SEC_FILTER.v
+L0 1
+R3
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/SEC_FILTER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/SEC_FILTER.v|
+!i113 1
+R5
+R6
+n@s@e@c_@f@i@l@t@e@r
+vTB_DP_COMPLETMOD
+R0
+!i10b 1
+!s100 f44]ni6Gl97PiXBgA2<?N3
+I]dU[GVb1GD[I@Qa0[:gK43
+R1
+R2
+w1653926960
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/TB_DP_COMPLETMOD.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/TB_DP_COMPLETMOD.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/TB_DP_COMPLETMOD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P6/E6/TB_DP_COMPLETMOD.v|
+!i113 1
+R5
+R6
+n@t@b_@d@p_@c@o@m@p@l@e@t@m@o@d

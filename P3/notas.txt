@@ -1,0 +1,15 @@
+/*
+genvar i;
+generate
+  for(i=0; i<3; i=i+1)
+  begin : combs
+    COMB #(.Wd(Win+i))
+        tab_comb(.data_in(data_comb[i]),.clk(clk),.rst(rst),.val_in(val_comb[i]));
+  end
+endgenerate
+*/
+
+//bloque comb ponerle condicion de enable(con val_in) para que no opere si no esta activo. 
+// La frec de reloj a la que trabajan los bloques comb (<clk) se gestiona en el test bench.
+
+//apartado 5: Si se ha testeado correctamente el de precision conmpleta, simplemente es coger los 16 MSB

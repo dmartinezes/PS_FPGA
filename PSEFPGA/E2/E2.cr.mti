@@ -1,0 +1,37 @@
+./DP_MOD.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/E2/DP_MOD.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DP_MOD
+
+Top level modules:
+	DP_MOD
+
+} {} {}} ./TB_DDS_test.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/E2/TB_DDS_test.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_DDS_test
+
+Top level modules:
+	TB_DDS_test
+
+} {} {}} ./DDS.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/E2/DDS.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DDS
+-- Compiling module rom_mem
+
+Top level modules:
+	DDS
+
+} {} {}} ./mux2_1.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/E2/mux2_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} ./register.v {1 {vlog -work work -stats=none C:/Users/damares/Documents/PSEFPGA/E2/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}}

@@ -1,0 +1,15 @@
+PLL_Name	clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio|pll
+PLLJITTER	45
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	pll_com:pll_inst2|altpll:altpll_component|pll_com_altpll:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	pll_mod:pll_inst1|altpll:altpll_component|pll_mod_altpll1:auto_generated|pll1
+PLLJITTER	36
+PLLSPEmax	84
+PLLSPEmin	-53
+

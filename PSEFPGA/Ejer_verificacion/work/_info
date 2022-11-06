@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/17.1
+vmult_add
+!s110 1646410620
+!i10b 1
+!s100 n>lU_SS1aPIiojJz5@CPF3
+IUXYGZV`PG0iAiM@>>KBRn2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/damares/Documents/PSEFPGA/Ejer_verificacion
+w1646410613
+8C:/Users/damares/Documents/PSEFPGA/Ejer_verificacion/mult_add.v
+FC:/Users/damares/Documents/PSEFPGA/Ejer_verificacion/mult_add.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1646410620.000000
+!s107 C:/Users/damares/Documents/PSEFPGA/Ejer_verificacion/mult_add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/damares/Documents/PSEFPGA/Ejer_verificacion/mult_add.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vmult_add_tb
+!s110 1646409961
+!i10b 1
+!s100 _]o8QGUz<9hQ?22;ZZ^zH1
+ISCIYFL6f;ejoV?4dYCQL?0
+R0
+R1
+w1614345701
+8C:/Users/damares/Documents/PSEFPGA/Ejer_verificacion/mult_add_tb.v
+FC:/Users/damares/Documents/PSEFPGA/Ejer_verificacion/mult_add_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1646409961.000000
+!s107 C:/Users/damares/Documents/PSEFPGA/Ejer_verificacion/mult_add_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/damares/Documents/PSEFPGA/Ejer_verificacion/mult_add_tb.v|
+!i113 1
+R3
+R4

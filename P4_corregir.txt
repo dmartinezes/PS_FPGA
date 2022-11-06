@@ -1,0 +1,4 @@
+Falta hacer la simulación a nivel de puertas. Va muy justo de frecuencia, lo he probado con simulación gate level y 
+no funciona correctamente. Se podría mejorar el módulo CONTROL (que es el que está limitando la velocidad). 
+Revisar los apuntes Finite_state_machine (página 5, Mealy FSM) y rehacer el módulo de control para conseguir mayor velocidad. 
+Os cambiaremos la nota cuando modifiquéis el CONTROL.

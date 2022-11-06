@@ -1,0 +1,78 @@
+./CIC.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P3/E3/CIC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CIC
+
+Top level modules:
+	CIC
+
+} {} {}} ./INT.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P3/E3/INT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module INT
+
+Top level modules:
+	INT
+
+} {} {}} ./TB_INT.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P3/E3/TB_INT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_INT
+
+Top level modules:
+	TB_INT
+
+} {} {}} ./R_INT.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P3/E3/R_INT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module R_INT
+
+Top level modules:
+	R_INT
+
+} {} {}} ./TB_CIC.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P3/E3/TB_CIC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_CIC
+
+Top level modules:
+	TB_CIC
+
+} {} {}} ./TB_R_INT.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P3/E3/TB_R_INT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_R_INT
+
+Top level modules:
+	TB_R_INT
+
+} {} {}} ./register.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P3/E3/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} ./COMB.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P3/E3/COMB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module COMB
+
+Top level modules:
+	COMB
+
+} {} {}} ./CIC_pc.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P3/E3/CIC_pc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CIC_pc
+
+Top level modules:
+	CIC_pc
+
+} {} {}} ./TB_CIC_pc.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P3/E3/TB_CIC_pc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_CIC_pc
+
+Top level modules:
+	TB_CIC_pc
+
+} {} {}} ./TB_COMB.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P3/E3/TB_COMB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_COMB
+
+Top level modules:
+	TB_COMB
+
+} {} {}}

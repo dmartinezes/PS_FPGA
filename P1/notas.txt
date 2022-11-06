@@ -1,0 +1,14 @@
+//				if (q[L-2] == 1) //2o //complemento a 1 (bin) lineas dir
+//				begin /*
+//					sin_wave[(W-3):0] <= -q[(W-3):0]; 
+//					sin_wave[(W-1):(W-2)] <= q[(W-1):(W-2)];*/
+//				end
+//				else if (q[L-1] == 1) //3o //complemento a 2 (bin) == cambio signo (num)
+//					sin_wave <= -q; 
+//				else if ((q[L-2] == 1) && (q[L-1] == 1)) //4o
+//				begin /*
+//					sin_wave[(W-3):0] <= +q[(W-3):0]; //complemento a 1 (bin)
+//					sin_wave[(W-1):(W-2)] <= -q[(W-1):(W-2)];	*/
+//				end					
+//				else 
+//					sin_wave <= q; //1o

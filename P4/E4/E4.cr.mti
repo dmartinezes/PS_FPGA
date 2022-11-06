@@ -1,0 +1,71 @@
+./TB_ROM.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4/TB_ROM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_ROM
+
+Top level modules:
+	TB_ROM
+
+} {} {}} ./REG_MUX.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4/REG_MUX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module REG_MUX
+
+Top level modules:
+	REG_MUX
+
+} {} {}} ./TB_REG_MUX.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4/TB_REG_MUX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_REG_MUX
+
+Top level modules:
+	TB_REG_MUX
+
+} {} {}} ./MULT_ACC.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4/MULT_ACC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MULT_ACC
+
+Top level modules:
+	MULT_ACC
+
+} {} {}} ./SEC_FILTER.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4/SEC_FILTER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SEC_FILTER
+
+Top level modules:
+	SEC_FILTER
+
+} {} {}} ./TB_MULT_ACC.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4/TB_MULT_ACC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_MULT_ACC
+
+Top level modules:
+	TB_MULT_ACC
+
+} {} {}} ./TB_SEC_FILTER.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4/TB_SEC_FILTER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_SEC_FILTER
+
+Top level modules:
+	TB_SEC_FILTER
+
+} {} {}} ./CONTROL.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4/CONTROL.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL
+
+Top level modules:
+	CONTROL
+
+} {} {}} ./ROM.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4/ROM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ROM
+
+Top level modules:
+	ROM
+
+} {} {}} ./TB_CONTROL.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4/TB_CONTROL.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TB_CONTROL
+
+Top level modules:
+	TB_CONTROL
+
+} {} {}}

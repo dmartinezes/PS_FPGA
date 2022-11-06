@@ -1,0 +1,305 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sqr_wave[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[8]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[10]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[11]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[12]",
+					"strict" : false
+				},
+				{
+					"name" : "sqr_wave[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ramp_wave[13]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[8]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[10]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[11]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[12]",
+					"strict" : false
+				},
+				{
+					"name" : "sin_wave[13]",
+					"strict" : false
+				},
+				{
+					"name" : "val_out",
+					"strict" : false
+				},
+				{
+					"name" : "rst_ac",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "ena_ac",
+					"strict" : false
+				},
+				{
+					"name" : "P[26]",
+					"strict" : false
+				},
+				{
+					"name" : "P[25]",
+					"strict" : false
+				},
+				{
+					"name" : "P[24]",
+					"strict" : false
+				},
+				{
+					"name" : "P[23]",
+					"strict" : false
+				},
+				{
+					"name" : "P[22]",
+					"strict" : false
+				},
+				{
+					"name" : "P[21]",
+					"strict" : false
+				},
+				{
+					"name" : "P[20]",
+					"strict" : false
+				},
+				{
+					"name" : "P[19]",
+					"strict" : false
+				},
+				{
+					"name" : "P[18]",
+					"strict" : false
+				},
+				{
+					"name" : "P[17]",
+					"strict" : false
+				},
+				{
+					"name" : "P[16]",
+					"strict" : false
+				},
+				{
+					"name" : "P[15]",
+					"strict" : false
+				},
+				{
+					"name" : "P[14]",
+					"strict" : false
+				},
+				{
+					"name" : "P[13]",
+					"strict" : false
+				},
+				{
+					"name" : "P[12]",
+					"strict" : false
+				},
+				{
+					"name" : "P[11]",
+					"strict" : false
+				},
+				{
+					"name" : "P[10]",
+					"strict" : false
+				},
+				{
+					"name" : "P[9]",
+					"strict" : false
+				},
+				{
+					"name" : "P[8]",
+					"strict" : false
+				},
+				{
+					"name" : "P[7]",
+					"strict" : false
+				},
+				{
+					"name" : "P[6]",
+					"strict" : false
+				},
+				{
+					"name" : "P[5]",
+					"strict" : false
+				},
+				{
+					"name" : "P[4]",
+					"strict" : false
+				},
+				{
+					"name" : "P[3]",
+					"strict" : false
+				},
+				{
+					"name" : "P[2]",
+					"strict" : false
+				},
+				{
+					"name" : "P[1]",
+					"strict" : false
+				},
+				{
+					"name" : "P[0]",
+					"strict" : false
+				},
+				{
+					"name" : "val_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

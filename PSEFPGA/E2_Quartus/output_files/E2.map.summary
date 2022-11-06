@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Mar 11 12:15:46 2022
+Quartus Prime Version : 17.1.1 Internal Build 593 12/11/2017 SJ Standard Edition
+Revision Name : E2
+Top-level Entity Name : DP_MOD
+Family : Cyclone IV E
+Total logic elements : 125
+    Total combinational functions : 96
+    Dedicated logic registers : 109
+Total registers : 109
+Total pins : 93
+Total virtual pins : 0
+Total memory bits : 131,072
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/simulation/modelsim
+vCONTROL
+Z1 !s110 1652193312
+!i10b 1
+!s100 Q;eR6MO3f`5l?Z8Z23c_K2
+IjMZO_<V00a3MOF3bPzE3D0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1652167842
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/CONTROL.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/CONTROL.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1652193312.000000
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/CONTROL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/CONTROL.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus
+Z7 tCvgOpt 0
+n@c@o@n@t@r@o@l
+vMULT_ACC
+R1
+!i10b 1
+!s100 c<NIj[an`kN@iP]BSHCzU1
+Ij1G:]Uge9jX5i1h:Kl;BV1
+R2
+R0
+w1651161572
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/MULT_ACC.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/MULT_ACC.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/MULT_ACC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/MULT_ACC.v|
+!i113 1
+R5
+R6
+R7
+n@m@u@l@t_@a@c@c
+vREG_MUX
+Z8 !s110 1652193311
+!i10b 1
+!s100 Kklz;E]MC8VdK0<L>IQbc3
+I94Q6:4`nUC;6CW=_`GoL^3
+R2
+R0
+w1652084193
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/REG_MUX.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/REG_MUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1652193311.000000
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/REG_MUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/REG_MUX.v|
+!i113 1
+R5
+R6
+R7
+n@r@e@g_@m@u@x
+vROM
+R1
+!i10b 1
+!s100 KmU2ijZF:og[RWGdG<LMM3
+InJaHTDaId<az?Ul:C<XS]2
+R2
+R0
+w1652091325
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/ROM.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/ROM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/ROM.v|
+!i113 1
+R5
+R6
+R7
+n@r@o@m
+vSEC_FILTER
+R8
+!i10b 1
+!s100 mQ=Vdz19L@>I>g]LzP]8H1
+IYXbb9Dj<Q_jRoz@cRE38_1
+R2
+R0
+w1652174675
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/SEC_FILTER.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/SEC_FILTER.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/SEC_FILTER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/SEC_FILTER.v|
+!i113 1
+R5
+R6
+R7
+n@s@e@c_@f@i@l@t@e@r
+vTB_SEC_FILTER
+R1
+!i10b 1
+!s100 36o5k[dXjkN]o0;n:mXPn0
+IM[h5[WcI0maHf@Rnbza5f1
+R2
+R0
+w1652091215
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v|
+!i113 1
+R5
+R6
+R7
+n@t@b_@s@e@c_@f@i@l@t@e@r

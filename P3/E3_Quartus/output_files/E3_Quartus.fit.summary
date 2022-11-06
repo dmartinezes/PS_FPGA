@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Apr 07 21:46:04 2022
+Quartus Prime Version : 17.1.1 Internal Build 593 12/11/2017 SJ Lite Edition
+Revision Name : E3_Quartus
+Top-level Entity Name : CIC_wrap
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 282 / 6,272 ( 4 % )
+    Total combinational functions : 249 / 6,272 ( 4 % )
+    Dedicated logic registers : 278 / 6,272 ( 4 % )
+Total registers : 278
+Total pins : 36 / 92 ( 39 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

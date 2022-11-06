@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/simulation/modelsim
+vhard_block
+Z1 !s110 1652260821
+!i10b 1
+!s100 iRX<I`89MO0;=o>5nblG83
+ICnmfLQ`^[l9e41L4l::dM3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1652260798
+Z4 8SEC_FILTER_6_1200mv_85c_slow.vo
+Z5 FSEC_FILTER_6_1200mv_85c_slow.vo
+L0 16297
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1652260820.000000
+Z8 !s107 SEC_FILTER_6_1200mv_85c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|SEC_FILTER_6_1200mv_85c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vSEC_FILTER
+R1
+!i10b 1
+!s100 `JDBf=>oSZbW19ASOJgU_3
+II7U7L5>BVz41f[GcT8g[?1
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@s@e@c_@f@i@l@t@e@r
+vTB_SEC_FILTER
+R1
+!i10b 1
+!s100 36o5k[dXjkN]o0;n:mXPn0
+IM[h5[WcI0maHf@Rnbza5f1
+R2
+R0
+w1652091215
+8C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v
+FC:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1652260821.000000
+!s107 C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus|C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus/TB_SEC_FILTER.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/Usuario/Desktop/Procesado_Digital_de_la_Senyal_en_FPGA/P4/E4_Quartus
+R12
+n@t@b_@s@e@c_@f@i@l@t@e@r

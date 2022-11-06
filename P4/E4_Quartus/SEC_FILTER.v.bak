@@ -1,0 +1,75 @@
+module SEC_FILTER
+#(parameter Win=16,    // Cuantificacion de la entrada y salida
+  parameter Wc = 18,   // Cuantificacion coeficientes
+  parameter Num_coef=17)   // Numero de coeficientes
+  (input  signed [Win-1:0] din, // entrada
+   input  clk, 
+   input val_in,
+   input rst,
+   output reg val_out,
+   //output reg signed [Win+Wc-1:0] dout); // salida precision completa
+   output reg signed [Win+2:0] dout); // salida truncada a 19 bits
+
+    wire [log2(Num_coef)-1:0] addr;
+    wire ce_Reg;
+    wire rst_Acc;
+    wire ce_Acc;
+
+    CONTROL #(.Num_coef(Num_coef)) dut1
+    (.val_in(val_in), 
+    .clk(clk), 
+    .rst(rst),
+    .addr(addr),
+    .ce_Reg(ce_Reg),
+    .rst_Acc(rst_Acc),
+    .ce_Acc(ce_Acc));
+
+    wire signed [Win-1:0] dout_mux; 
+    reg signed [Win-1:0] dout_mux_reg; 
+
+    REG_MUX #(.Win(Win), .Num_coef(Num_coef)) regMux
+    (.din(din), 
+    .sel(addr),
+    .clk(clk), 
+    .ce(val_in),  
+    .dout(dout_mux));
+
+    wire signed [Wc-1:0] data;
+    wire signed [Win+Wc-1:0] dout_mult;
+
+    ROM #(.Num_coef(Num_coef), .Wc(Wc)) rom
+    (.addr(addr), 
+    .clk(clk),
+    .data(data));
+    
+    MULT_ACC #(.Win(Win), .Wc(Wc)) multAcc
+    (.din(dout_mux_reg), 
+    .coef(data),
+    .clk(clk), 
+    .rst(rst_Acc),  
+    .ce(ce_Acc),
+    .dout(dout_mult));
+
+    always @(posedge clk) begin
+
+        dout_mux_reg <= dout_mux;
+
+        if (ce_Reg) begin
+            //dout <= dout_mult;        // salida precision completa
+            dout <= dout_mult[33:15]; // salida truncada a 19 bits
+            val_out <= 1'b1;
+        end
+        else 
+            val_out <= 1'b0;
+    end
+
+    function integer log2;
+        input integer value;
+        begin
+            value = value-1;
+            for (log2=0; value>0; log2=log2+1)
+                value = value>>1;
+        end
+    endfunction
+
+endmodule

@@ -1,0 +1,111 @@
+module WR_CONTROL
+(
+	input rxrdy,
+	input start_wr,
+	input rst, 
+	input clk,
+	output reg shift_rxregs,
+	output reg load_confregs,
+	output reg done_wr,
+	output reg [2:0] wr_leds
+	);
+
+	//Definición de estados
+  	//Binario natural
+	reg [1:0] state;
+	parameter [1:0] espera = 2'b00, registro = 2'b01, intermedio = 2'b10, fin_registros = 2'b11;
+
+	reg [3:0] count;
+	reg cont_enable;
+
+	initial begin
+		count = 0;
+	end
+
+	//Contador hasta 11
+	always @(posedge clk) begin 
+
+		if(cont_enable) begin 
+
+			count <= count + 1;
+
+		end
+
+		if (count >= 11) begin
+
+			count <= 0;
+			
+		end
+
+	end
+
+	//Definimos la memoria de estado
+	always @(posedge clk) begin
+		if (rst)
+		state <= espera;
+		else begin
+			case (state)
+
+				espera: 
+					if(rxrdy == 1 && start_wr == 1)
+						state <= registro;
+					else 
+            			state <= espera;
+					
+				registro: begin
+					if(count < 10)
+						state <= espera;
+					else 
+						state <= intermedio;
+				end
+
+				intermedio: 
+					state <= fin_registros;
+
+				fin_registros:
+					state <= espera;
+
+			endcase
+		end	
+	end
+
+
+	always @(state) begin
+		case (state)
+
+		espera: begin
+			cont_enable = 0;
+			shift_rxregs = 0;
+			load_confregs = 0;
+			done_wr = 0;
+			wr_leds = 0;
+		end
+
+		registro: begin
+			cont_enable = 1;
+			shift_rxregs = 1;
+			load_confregs = 0;
+			done_wr = 0;
+			wr_leds = 1;
+		end
+
+		intermedio: begin
+			cont_enable = 0;
+			shift_rxregs = 0;
+			load_confregs = 0;
+			done_wr = 0;
+			wr_leds = 2;
+		end
+
+		fin_registros: begin
+			cont_enable = 0;
+			shift_rxregs = 0;
+			load_confregs = 1;
+			done_wr = 1;
+			wr_leds = 3;
+		end
+
+		endcase
+	end
+	
+endmodule 
